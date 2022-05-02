@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220502193520">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__wrapper">
+					<div class="page__left"><a href="#" class="page__logo _icon-logo"></a></div>
+					<div class="page__right right-page">
+						<h1 class="right-page__title">Get iintoo it today</h1>
+						<div class="right-page__descr">There is no charge or obligation upon registration.</div>
+						<div class="right-page__social social-page">
+							<a href="#" class="social-page__facebook facebook">
+								<div class="facebook__icon _icon-facebook"></div>
+								<div class="facebook__descr">Register with Facebook</div>
+							</a>
+							<a href="#" class="social-page__linkedin linkedin">
+								<div class="linkedin__icon _icon-linkedin"></div>
+								<div class="linkedin__descr">Register with Linkedin</div>
+							</a>
+						</div>
+						<div class="right-page__divider">OR</div>
+						<form class="right-page__form form-page" action="#">
+							<div class="form-page__wrapper">
+								<div class="form-page__input">
+									<label for="Email">Email</label>
+									<input id="Email" data-required="email" autocomplete="off" type="email" name="Email" data-error="Ошибка" placeholder="Enter your Email address" class="input">
+								</div>
+								<div class="form-page__input">
+									<label for="Phone">Phone</label>
+									<input id="Phone" data-tel-input maxlength="18" autocomplete="off" type="tel" name="Phone" data-error="Ошибка" placeholder="Enter your phone number" class="input">
+								</div>
+							</div>
+							<h3 class="form-page__title">What type of investor are you?</h3>
+							<div class="form-page__subtitle">Select the type of investor you are bellow.</div>
+							<div class="form-page__radiobtn">
+								<div class="options">
+									<div class="options__item _icon-info">
+										<input hidden id="o_1" class="options__input" checked type="radio" value="1" name="option">
+										<label for="o_1" class="options__label"><span class="options__text">Individual</span></label>
+									</div>
+									<div class="options__item _icon-info">
+										<input hidden id="o_2" class="options__input" type="radio" value="2" name="option">
+										<label for="o_2" class="options__label"><span class="options__text">Business</span></label>
+									</div>
+									<div class="options__item _icon-info">
+										<input hidden id="o_3" class="options__input" type="radio" value="3" name="option">
+										<label for="o_3" class="options__label"><span class="options__text">IRA</span></label>
+									</div>
+									<div class="options__item _icon-info">
+										<input hidden id="o_4" class="options__input" type="radio" value="4" name="option">
+										<label for="o_4" class="options__label"><span class="options__text">Trust</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="form-page__info">I am a natural person investing on my own behalf as a sole
+								owner, joint tenant, or tenant in common.</div>
+							<div class="checkbox">
+								<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_5" class="checkbox__label"><span class="checkbox__text">I agree to the
+										terms and receiving notifications from iintoo <a href="#">View full
+											terms</a></span></label>
+							</div>
+							<button type="submit" class="form-page__btn button">Create Account</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220502193520"></script>
+</body>
+
+</html>
